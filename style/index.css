@@ -32,11 +32,7 @@ h1{
     text-align: center;
     padding: 10px 0px 20px 0px
 }
-h3{
-    color: orangered;
-    font-size: 4rem;
-}
-.top-nav{
+.top-nav nav{
     display: flex;
     justify-content: space-between;
     padding: 10px;
@@ -44,14 +40,15 @@ h3{
 }
  .top-nav a{
     padding: 3px;
-    font-size: 2rem;
+    font-size: 2.4rem;
     border: 2px solid orangered;
     height: 30px;
-    width: 100px;
-    color: slategray;
+    width: 180px;
+    color: white;
     text-decoration: none;
-    background: white;
+    background: slategray;
     border-radius: 5px;
+    text-align: center;
 }
 .top-nav a: hover{
     background: black;
@@ -214,16 +211,21 @@ footer a{
 }
 @media (max-width: 929px) {
     .bottle-openers {
-        background-color: white;
         margin-top: 10%;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
 }
 @media (max-width: 929px) {
     .desk {
-        background-color: white;
         margin-top: 10%;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+}
+
+@media (max-width: 800px) {
+    .top-nav a{
+        padding: 0px;
+        font-size: 2rem;
+        height: 25px;
+        width: 130px;
     }
 }
 @media (max-width: 800px) {
@@ -235,7 +237,6 @@ footer a{
 }
 @media (max-width: 800px) {
     .my-name p {
-        color: white;
         font-size: 10rem;
         margin-top: 10%;
     }
@@ -243,11 +244,22 @@ footer a{
 @media (max-width: 800px) {
 .my-name-link{
     margin-bottom: 10%;
-}
+    }
 }
 
-@media (max-width: 400px) {
-    .top nav h3 {
-        display: none;
+@media (max-width: 620px) {
+    .bottle-openers {
+        margin-top: 0%;
+    }
+}
+@media (max-width: 620px) {
+    .desk {
+        margin-top: 0%;
+    }
+}
+@media (max-width: 500px) {
+    .my-name p {
+        font-size: 8rem;
+        margin-top: 0%;
     }
 }
