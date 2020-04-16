@@ -1,1 +1,199 @@
 /* Add CSS styling here */
+
+html, body, div, span, applet, object, iframe,  
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
+a, abbr, acronym, address, big, cite, code,  
+del, dfn, em, img, ins, kbd, q, s, samp,  
+small, strike, strong, sub, sup, tt, var,  
+b, u, i, center,  
+dl, dt, dd, ol, ul, li,  
+fieldset, form, label, legend,  
+table, caption, tbody, tfoot, thead, tr, th, td,  
+article, aside, canvas, details, embed,  
+figure, figcaption, footer, header, hgroup,  
+menu, nav, output, ruby, section, summary,  
+time, mark, audio, video {  
+margin: 0;  
+padding: 0;  
+border: 0;  
+font-size: 100%;  
+font: inherit;  
+vertical-align: baseline;  
+}
+
+
+h1{
+    color: white;
+    background-color: orangered;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px 0px 20px 0px
+}
+h3{
+    color: orangered;
+    font-size: 40px;
+}
+.top-nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+ .top-nav a{
+    padding: 3px;
+    font-size: 20px;
+    border: 2px solid orangered;
+    height: 30px;
+    width: 100px;
+    color: slategray;
+    text-decoration: none;
+    background: white;
+    border-radius: 5px;
+}
+.top-nav a: hover{
+    background: black;
+}
+.my-name {
+    padding: 300px;
+    margin-right: 50px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    background-image: url(https://www.nerdwallet.com/assets/blog/wp-content/uploads/2018/04/Woodworking-RBC1-600x360.jpg);
+    height:100px
+    width: 150px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+.my-name p {
+    color: slategray;
+    font-size: 100px;
+    text-align: center;
+}
+.my-name-link{
+    display: flex;
+    justify-content: center;
+}
+.my-name-link a{
+    font-size: 20px;
+    border: 3px solid orangered;
+    margin: 5px;
+    height: 50px;
+    width: 200px;
+    color: slategray;
+    text-decoration: none;
+    border-radius: 10px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.gallery{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0px;
+}
+.gallery img{
+    height:300px;
+    width: 300px;
+    margin: 5px;
+}
+.cutting-board {
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.cutting-board p{
+    text-align: center;
+    padding: 2px;
+    color: orangered;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.coasters {
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.coasters p{
+      text-align: center;
+      padding: 2px;
+      color: orangered;
+      font-family: sans-serif;
+      font-size: 20px;
+}
+
+.bottle-openers {
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.bottle-openers p{
+      text-align: center;
+      padding: 2px;
+      color: orangered;
+      font-family: sans-serif;
+      font-size: 20px;
+}
+.gallery-2{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0px;
+}
+.gallery-2 img{
+    height:300px;
+    width: 300px;
+    margin: 5px;   
+}
+.wall-art {
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.wall-art p{
+      text-align: center;
+      padding: 2px;
+      color: orangered;
+      font-family: sans-serif;
+      font-size: 20px;
+}
+.coffee-table {
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.coffee-table p{
+      text-align: center;
+      padding: 2px;
+      color: orangered;
+      font-family: sans-serif;
+      font-size: 20px;
+}
+.desk {
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.desk p{
+      text-align: center;
+      padding: 2px;
+      color: orangered;
+      font-family: sans-serif;
+      font-size: 20px;
+}
+footer{
+    height: 100px;
+    background: orangered;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer a{
+    font-size: 20px;
+    border: 3px solid slategray;
+    margin: 5px;
+    height: 50px;
+    width: 200px;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
