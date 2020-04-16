@@ -21,17 +21,20 @@ font: inherit;
 vertical-align: baseline;  
 }
 
+Html {
+    font-size: 62.5%;
+}
 
 h1{
     color: white;
     background-color: orangered;
-    font-size: 20px;
+    font-size: 2rem;
     text-align: center;
     padding: 10px 0px 20px 0px
 }
 h3{
     color: orangered;
-    font-size: 40px;
+    font-size: 4rem;
 }
 .top-nav{
     display: flex;
@@ -41,7 +44,7 @@ h3{
 }
  .top-nav a{
     padding: 3px;
-    font-size: 20px;
+    font-size: 2rem;
     border: 2px solid orangered;
     height: 30px;
     width: 100px;
@@ -55,28 +58,29 @@ h3{
 }
 .my-name {
     padding: 300px;
-    margin-right: 50px;
-    margin-left: 50px;
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
     background-image: url(https://www.nerdwallet.com/assets/blog/wp-content/uploads/2018/04/Woodworking-RBC1-600x360.jpg);
-    height:100px
-    width: 150px;
+    height:100px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50%;
 }
 .my-name p {
-    color: slategray;
-    font-size: 100px;
+    color: white;
+    font-size: 10rem;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10%;
 }
 .my-name-link{
     display: flex;
     justify-content: center;
 }
 .my-name-link a{
-    font-size: 20px;
+    font-size: 2rem;
     border: 3px solid orangered;
     margin: 5px;
     height: 50px;
@@ -109,7 +113,7 @@ h3{
     padding: 2px;
     color: orangered;
     font-family: sans-serif;
-    font-size: 20px;
+    font-size: 2rem;
 }
 .coasters {
     background-color: white;
@@ -120,7 +124,7 @@ h3{
       padding: 2px;
       color: orangered;
       font-family: sans-serif;
-      font-size: 20px;
+      font-size: 2rem;
 }
 
 .bottle-openers {
@@ -132,7 +136,7 @@ h3{
       padding: 2px;
       color: orangered;
       font-family: sans-serif;
-      font-size: 20px;
+      font-size: 2rem;
 }
 .gallery-2{
     display: flex;
@@ -153,7 +157,7 @@ h3{
       padding: 2px;
       color: orangered;
       font-family: sans-serif;
-      font-size: 20px;
+      font-size: 2rem;
 }
 .coffee-table {
     background-color: white;
@@ -164,7 +168,7 @@ h3{
       padding: 2px;
       color: orangered;
       font-family: sans-serif;
-      font-size: 20px;
+      font-size: 2rem;
 }
 .desk {
     background-color: white;
@@ -175,7 +179,7 @@ h3{
       padding: 2px;
       color: orangered;
       font-family: sans-serif;
-      font-size: 20px;
+      font-size: 2rem;
 }
 footer{
     height: 100px;
@@ -185,7 +189,7 @@ footer{
     align-items: center;
 }
 footer a{
-    font-size: 20px;
+    font-size: 2rem;
     border: 3px solid slategray;
     margin: 5px;
     height: 50px;
@@ -197,3 +201,48 @@ footer a{
     justify-content: center;
     align-items: center;   
 }
+
+@media (max-width: 1000px) {
+    .gallery{
+        flex-wrap: wrap;
+    }
+}
+@media (max-width: 1000px) {
+    .gallery-2{
+        flex-wrap: wrap;
+    }
+}
+@media (max-width: 929px) {
+    .bottle-openers {
+        background-color: white;
+        margin-top: 10%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+}
+@media (max-width: 929px) {
+    .desk {
+        background-color: white;
+        margin-top: 10%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+}
+@media (max-width: 800px) {
+    .my-name {
+    padding: 20px;
+    height: 300px;
+    background-position: 100%;
+    }  
+}
+@media (max-width: 800px) {
+    .my-name p {
+        color: white;
+        font-size: 10rem;
+        margin-top: 10%;
+    }
+}
+@media (max-width: 800px) {
+.my-name-link{
+    margin-bottom: 10%;
+}
+}
+
